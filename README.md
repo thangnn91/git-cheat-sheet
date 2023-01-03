@@ -143,6 +143,15 @@ $ git init <directory>
 ```
 $ git status
 ```
+##### See deatail changes/difference of a commit:
+```
+$ git diff <commit>
+```
+
+##### See file name/stat changes/difference of a commit:
+```
+$ git diff <commit> --name-only/--stat
+```
 
 ##### Changes to tracked files:
 ```
