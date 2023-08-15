@@ -302,6 +302,7 @@ $ git log -p <file>
 ##### Display commits that are present only in remote/branch in right side
 ```
 $ git log --oneline <origin/master>..<remote/master> --left-right
+$ git log --oneline --all --graph --decorate  $(git reflog | awk '{print $1}')
 ```
 
 ##### Who changed, what and when in &lt;file&gt;:
